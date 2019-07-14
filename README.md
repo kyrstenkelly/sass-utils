@@ -2,9 +2,15 @@
 
 My go-to variables/mixins/functions in one place for easier re-use.
 
+* [Installation](#installation)
 * [Variables](#variables)
 * [Functions](#functions)
 * [Mixins](#mixins)
+
+## Installation
+```bash
+npm install -D kyrsten-sass-utils
+```
 
 ## Variables
 
@@ -23,6 +29,17 @@ $screen-xl: 1200px;
 Easy conversion from pixels to rem.
 
 ## Mixins
+
+### Media Query 
+#### `@media` 
+Mixin to facilitate mobile-first media queries. 
+```scss
+@include media($screem-sm) { ... }
+```  
+will compile to
+```scss
+@media only screen and (min-width: $screen-sm) { ... }
+```
 
 ### Visibility Helpers
 
