@@ -23,6 +23,15 @@ $screen-lg: 992px;
 $screen-xl: 1200px;
 ```
 
+### Font Weights:
+```scss
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+```
+
 ## Functions
 
 ### `rem($px)`
